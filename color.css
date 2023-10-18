@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+
+
+@font-face{
+    font-family: 'Athiti', sans-serif;
+    src: url('Fontes/Athiti/Athiti-SemiBold.ttf' ) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Scope One', serif" ;
+    src: url('Fontes/Scope_One/ScopeOne-Regular.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family:'Rubik', sans-serif;
+    src: url('Fontes/Rubik/Rubik-VariableFont_wght.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+:root{
+
+    --cor1:#233D8C;
+    --cor2:#2E84A6;
+    --image:'imagens/AdobeStock_519844593_Preview.jpeg';
+
+    --font1:'Athiti', sans-serif;
+    --font2:"Scope One', serif" ;
+    --font3:'Rubik', sans-serif;
+}
+
+body{background-color: #233d8c0e;
+    padding: 0px;
+    margin: 0px;
+    }
+
+/*ok */
+#verde{
+    
+    position: relative;
+    clip-path: circle(56% at 16% 6%);
+    background-size: cover;
+    }
+
+/*ok*/
+#verde img{
+    width: 69%;
+    
+}
+
+/*ok */
+#prof{
+    text-align: center;
+    font-weight: lighter;
+    position: absolute;
+    font-size: 5vw;
+    font-family: var(--font2);
+    color: var(--cor1);
+    right: 9vh;
+    top: 14vw;
+}
+/*ok*/
+#rede{    
+    display: inline-flex;
+    gap: 2vh;
+    top: 5vh;
+    right: 16vw;
+    position: absolute;
+}
+/*ok*/
+#rede img{height: 10vh ;}
+/*ok*/
+#rede :hover{
+    border-radius:60%;
+    background: #2e84a609 ;}
+
+/*Titulo e sub situlo*/
+
+main {
+    margin-right: 5vh;
+
+    margin-left: 5vh ;
+    font-size: 2rem;
+
+}
+
+aside{  
+    width: auto;  
+}
+
+#eu{position: absolute;
+    right: 14vh;
+    clip-path: circle(42% at 50% 50%);
+    width: 30%;
+    border-radius: 50%;}
+#icons{    top: 208vh;
+    right: 23vh;
+    position: absolute;
+    height: 11vh;
+    display: flex;}
+
+aside p{
+    color: #2E84A6;
+    font-weight: lighter;
+    font-family: var(--font2);
+    width: 60%;
+    text-align: justify}
+
+aside h1{
+    color: #2E84A6;
+    font-weight: bolder;
+    font-family: var(--font2);}
+
+
+@media (max-width: 900px) {
+    aside p{
+    width: 100%;}}
+
+@media (max-width: 740px) {
+
+/*ok*/
+#rede {
+    display: inline-flex;
+    gap: 2vh;
+    top: 2vh;
+    right: 10vw;
+    position: absolute;}
+
+#prof{right: 4vh;
+    top: 14vw;
+}
+#rede img{height: 6vh ;}
+
+}
+
