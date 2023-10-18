@@ -1,5 +1,4 @@
-# Portfolio
-
+# Portfolio (Em andamento/In progress).
 
 Desenvolvimento Front-End
 
