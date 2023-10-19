@@ -99,11 +99,11 @@ aside{
     width: 26%;
     border-radius: 50%;
 }
-#icons{top: 208vh;
-    right: 6vh;
+#icons{top: 209vh;
+    right: 15vh;
     position: absolute;
-    height: 10vh;
-    display: flex;}
+    height: 13vh;
+    display: flex}
 
 aside p{
     color: #2E84A6;
@@ -116,6 +116,15 @@ aside h1{
     color: #2E84A6;
     font-weight: bolder;
     font-family: var(--font2);}
+
+
+@media (max-width: 1290px) {
+
+#icons{
+    right: 8vh;
+    height: 10vh;
+}
+}
 
 
 @media (max-width: 900px) {
