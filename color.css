@@ -69,11 +69,11 @@ body{background-color: #233d8c0e;
     display: inline-flex;
     gap: 2vh;
     top: 5vh;
-    right: 16vw;
+    right: 2vw;
     position: absolute;
 }
 /*ok*/
-#rede img{height: 10vh ;}
+#rede img{height: 66px ;}
 /*ok*/
 #rede :hover{
     border-radius:60%;
@@ -81,33 +81,32 @@ body{background-color: #233d8c0e;
 
 /*Titulo e sub situlo*/
 
-main {padding-top: 8vw;
+main {
+    padding-top: 8vw;
     margin-right: 5vh;
-
     margin-left: 5vh ;
     font-size: 2rem;
-
 }
 
-aside{  display: grid;
-    width: auto;  
+aside{
+    padding: 2%;
+    width: 65%;   
 }
 
-#eu{position: absolute;
+#eu{
+    position: absolute;
     right: 16vh;
     clip-path: circle(42% at 50% 50%);
     width: 24%;
-    border-radius: 50%;
 }
-#icons{margin-left: 23vh;
-    height: 13vh;
+#icons{
+    height: 10vh;
     display: flex}
 
 aside p{
     color: #2E84A6;
     font-weight: lighter;
     font-family: var(--font2);
-    width: 60%;
     text-align: justify}
 
 aside h1{
@@ -115,34 +114,14 @@ aside h1{
     font-weight: bolder;
     font-family: var(--font2);}
 
+@media (max-width: 1000px)/*TAMANHO 1000*/ {
 
-@media (max-width: 1290px) {
+aside p{font-size: 30px;}
 
-#icons{margin-left: 0vh;
-    margin-left: 23vh;
-    right: 7vh;
-    height: 10vh;
-}
-}
+#eu{top: 50vh;}
 
-
-@media (max-width: 900px) {
-
-aside p{
-    width: 100%;}
-#eu{
-    top: 34vw;
-    right: 10vh;}
-
-#icons{justify-content: center;
-    margin-left: 0vh;}
-
-
-
-}
-
-
-@media (max-width: 740px) {
+#prof{font-size: 5vw;
+    right: 6vh;}
 
 /*ok*/
 aside h1{padding-right: 26vh;}
@@ -150,46 +129,46 @@ aside h1{padding-right: 26vh;}
     display: inline-flex;
     gap: 2vh;
     top: 2vh;
-    right: 10vw;
-    position: absolute;}
-
-#prof{right: 4vh;
-    top: 14vw;
+    right: 7vw;
+    position: absolute;
 }
-#rede img{height: 6vh ;}
-
-#eu{ width: 30%;
-    top: 41vw;
-    right: 7vh;
+#rede img{height: 65px ;}
+aside{
+    padding: 2%;
+     width: 90%;}
 }
-#icons{height: 13vh;}
+@media (max-width: 740px)/*TAMANHO 740*/ {
 
+aside h1{font-size: 30px;}
+#eu{right: 13vh;
+    top: 35vh;
+    width: 30%;}
 
 }
 
-@media (max-width: 500px){
-    
-#eu{width: 43%;
-    top: 54vw;
-    right: 5vh;}
 
-#icons{height: 10vh;}
+@media (max-width: 501px)/*TAMANHO 366*/{
 
-    
-}
-@media (max-width: 366px){
+aside h1{font-size: 30px;}
 
-aside p{font-size: 23px;}    
+aside p{font-size: 25px;}
 
-#eu{width: 43%;
-    top: 55vw;
-    right: 2vh;
-}   
-aside h1{
-    text-align: center;
-    font-size: 34px;}
-#icons{height: 7vh;
+#eu{    right: 6vh;
+    top: 25vh;
+    width: 36%;} 
+
+aside{
+    padding: 2%;
+     width: 100%;}
+
+#prof{font-size: 4vw;
+    right: 6vh;}
+
+#rede {
+        display: inline-flex;
+        gap: 2vh;
+        top: 2vh;
+        right: 10vw;}
+
+#rede img{height: 40px ;}
     }
-
-}
-
