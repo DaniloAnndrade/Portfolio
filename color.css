@@ -99,10 +99,10 @@ aside{
     width: 26%;
     border-radius: 50%;
 }
-#icons{    top: 208vh;
-    right: 23vh;
+#icons{top: 208vh;
+    right: 6vh;
     position: absolute;
-    height: 11vh;
+    height: 10vh;
     display: flex;}
 
 aside p{
@@ -125,6 +125,12 @@ aside p{
 #eu{
     top: 34vw;
     right: 10vh;}
+
+#icons{position: static;
+    justify-content: center;
+    height: 12vh;
+    display: flex;}
+
 }
 
 
@@ -148,6 +154,9 @@ aside h1{padding-right: 26vh;}
     top: 41vw;
     right: 7vh;
 }
+
+#icons{position: none;
+   }
 
 }
 
