@@ -81,7 +81,7 @@ body{background-color: #233d8c0e;
 
 /*Titulo e sub situlo*/
 
-main {
+main {padding-top: 8vw;
     margin-right: 5vh;
 
     margin-left: 5vh ;
@@ -89,19 +89,17 @@ main {
 
 }
 
-aside{  
+aside{  display: grid;
     width: auto;  
 }
 
 #eu{position: absolute;
-    right: 10vh;
+    right: 16vh;
     clip-path: circle(42% at 50% 50%);
-    width: 26%;
+    width: 24%;
     border-radius: 50%;
 }
-#icons{top: 209vh;
-    right: 15vh;
-    position: absolute;
+#icons{margin-left: 23vh;
     height: 13vh;
     display: flex}
 
@@ -120,8 +118,9 @@ aside h1{
 
 @media (max-width: 1290px) {
 
-#icons{
-    right: 8vh;
+#icons{margin-left: 0vh;
+    margin-left: 23vh;
+    right: 7vh;
     height: 10vh;
 }
 }
@@ -135,10 +134,10 @@ aside p{
     top: 34vw;
     right: 10vh;}
 
-#icons{position: static;
-    justify-content: center;
-    height: 12vh;
-    display: flex;}
+#icons{justify-content: center;
+    margin-left: 0vh;}
+
+
 
 }
 
