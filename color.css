@@ -94,10 +94,11 @@ aside{
 }
 
 #eu{position: absolute;
-    right: 14vh;
+    right: 10vh;
     clip-path: circle(42% at 50% 50%);
-    width: 30%;
-    border-radius: 50%;}
+    width: 26%;
+    border-radius: 50%;
+}
 #icons{    top: 208vh;
     right: 23vh;
     position: absolute;
@@ -118,12 +119,19 @@ aside h1{
 
 
 @media (max-width: 900px) {
-    aside p{
-    width: 100%;}}
+
+aside p{
+    width: 100%;}
+#eu{
+    top: 34vw;
+    right: 10vh;}
+}
+
 
 @media (max-width: 740px) {
 
 /*ok*/
+aside h1{padding-right: 26vh;}
 #rede {
     display: inline-flex;
     gap: 2vh;
@@ -136,5 +144,17 @@ aside h1{
 }
 #rede img{height: 6vh ;}
 
+#eu{ width: 30%;
+    top: 41vw;
+    right: 7vh;
+}
+
+}
+
+@media (max-width: 500px){
+    
+#eu{width: 43%;
+    top: 54vw;
+    right: 5vh;}
 }
 
