@@ -162,9 +162,8 @@ aside h1{padding-right: 26vh;}
     top: 41vw;
     right: 7vh;
 }
+#icons{height: 13vh;}
 
-#icons{position: none;
-   }
 
 }
 
@@ -173,5 +172,24 @@ aside h1{padding-right: 26vh;}
 #eu{width: 43%;
     top: 54vw;
     right: 5vh;}
+
+#icons{height: 10vh;}
+
+    
+}
+@media (max-width: 366px){
+
+aside p{font-size: 23px;}    
+
+#eu{width: 43%;
+    top: 55vw;
+    right: 2vh;
+}   
+aside h1{
+    text-align: center;
+    font-size: 34px;}
+#icons{height: 7vh;
+    }
+
 }
 
