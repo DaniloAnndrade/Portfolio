@@ -154,15 +154,14 @@ main{
         font-size: 40px;}
 
 }
-@media (max-width: 614px) {
+/*@media (max-width: 614px) {
 
 .crp{grid-template-columns: 44% 56%;}
 #eu{height: 51vh;} 
 #prof{right: 5vh;
-    top: 18vw;}   
+    top: 18vw;} }*/  
 
-}
-@media (max-width: 375px) {
+@media (max-width: 614px) {
 #eu {
     height: 43vh;
     clip-path: circle(39% at 54% 48%);}
