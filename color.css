@@ -86,7 +86,7 @@ main{
 
 .crp{
     
-    grid-template-rows: 54vh auto auto;
+    grid-template-rows: 54vh auto auto, 1fr;
     grid-template-columns: 68% 32%;
     display: grid;}
 
@@ -154,7 +154,7 @@ main{
         font-size: 40px;}
 
 }
-@media (max-width: 767px) {
+@media (max-width: 614px) {
 
 .crp{grid-template-columns: 44% 56%;}
 #eu{height: 51vh;} 
@@ -162,5 +162,21 @@ main{
     top: 18vw;}   
 
 }
+@media (max-width: 375px) {
+#eu {
+    height: 43vh;
+    clip-path: circle(39% at 54% 48%);}
 
+#danilo {
+    margin: 11vh 0vh 0vh 0vh;
+    font-size: 33px;}
+
+.crp {
+    grid-template-rows: 36vh auto auto auto;
+    }
+#rede img {
+    height: 53px;}
+
+#rede {top: 2vh;}
+}
 
