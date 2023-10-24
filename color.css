@@ -157,14 +157,14 @@ main{
 @media (max-width: 614px) {
 
 .crp{grid-template-columns: 44% 56%;}
-#eu{height: 51vh;} 
+#eu{height: 51vw;} 
 #prof{right: 5vh;
     top: 18vw;}   
 
 }
 @media (max-width: 370px) {
 #eu {
-    height: 43vh;
+    height: 59vw;
     clip-path: circle(39% at 54% 48%);}
 
 #danilo {
