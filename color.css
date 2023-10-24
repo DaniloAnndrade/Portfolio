@@ -81,7 +81,71 @@ body{background-color: #233d8c0e;
 
 /*Titulo e sub situlo*/
 
-main {
+main{
+    margin: 5%;}
+
+.crp{
+    
+    grid-template-rows:auto auto auto ;
+    grid-template-columns: 50% 50% ;
+    display: grid;}
+
+    .crp img{height: 10vh;}
+    #eu{padding-left: 47%;
+        position: center;
+        clip-path: circle(42% at 50% 50%); 
+        height: 48vh;
+        grid-row: 1/1 ;
+        grid-column: 2;}
+
+    #danilo{
+        grid-row: 1/1;
+        grid-column: 1;
+    }
+
+    #tex1{grid-row: 2/2;
+        grid-column: 1;
+    }
+
+    #icons{height: 50%;
+        grid-row:2/4;
+        grid-column: 2;}
+
+    #tex2{grid-row: 3;
+        grid-column: 1;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*main {
     padding-top: 8vw;
     margin-right: 5vh;
     margin-left: 5vh ;
@@ -171,4 +235,4 @@ aside{
         right: 10vw;}
 
 #rede img{height: 40px ;}
-    }
+    }*/
