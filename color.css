@@ -161,12 +161,8 @@ main{
 #prof{right: 5vh;
     top: 18vw;}   
 
-
-
-    
-
 }
-@media (max-width: 380px) {
+@media (max-width: 370px) {
 #eu {
     height: 43vh;
     clip-path: circle(39% at 54% 48%);}
