@@ -168,7 +168,7 @@ main{
 }
 @media (max-width: 380px) {
 #eu {
-    height: 43vh;
+    height: 22vh;
     clip-path: circle(39% at 54% 48%);}
 
 #danilo {
