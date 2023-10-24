@@ -90,7 +90,7 @@ main{
     grid-template-columns: 68% 32%;
     display: grid;}
 
-    /*.crp img{height: 11vh;}*/
+    .crp img{height: 11vh;}
     #eu{
         clip-path: circle(39% at 51% 53%);
         height: 59vh;
@@ -168,7 +168,7 @@ main{
 }
 @media (max-width: 380px) {
 #eu {
-    height: 22vh;
+    height: 43vh;
     clip-path: circle(39% at 54% 48%);}
 
 #danilo {
