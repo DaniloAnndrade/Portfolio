@@ -117,7 +117,7 @@ main{
     }
 
     #icons{
-        margin: 31%;
+        margin: 30%;
         height: 50%;
         grid-row:2/4;
         grid-column: 2;}
@@ -131,7 +131,22 @@ main{
         grid-row: 3;
         grid-column: 1;}
 
-@media (max-width: 900px) {
+@media (max-width: 1600px) {
+main {
+     margin-inline: 8%;}
+
+#icons {
+        margin: 9%;}
+
+#eu {
+    
+    height: 42vh;}
+#rede img {
+        height: 8vw;}
+
+}
+
+@media (max-width: 768px) {
 
 .crp{grid-template-columns: 53% 47%;
     grid-template-rows: 54vh auto auto auto; 
@@ -154,7 +169,7 @@ main{
         font-size: 40px;}
 
 }
-@media (max-width: 614px) {
+@media (max-width: 768px) {
 
 .crp{grid-template-columns: 44% 56%;}
 #eu{height: 51vw;} 
