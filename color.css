@@ -189,9 +189,9 @@ main {
 
 }
 
-@media (max-width: 420px){
+@media (max-width: 450px){
 #danilo {
-        font-size: 5vh;}
+        font-size: 2vh;}
 .crp {grid-template-rows: auto auto auto auto; 
 }
 #rede img {
