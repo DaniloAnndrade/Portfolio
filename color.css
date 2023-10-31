@@ -190,21 +190,36 @@ main {
    
 
 }
-@media (max-width: 370px) {
+@media (max-width: 375px) {
 #eu {
-    height: 59vw;
-    clip-path: circle(39% at 54% 48%);}
+    height: 51vw;
+    clip-path: circle(39% at 50% 46%);}
 
 #danilo {
-    margin: 11vh 0vh 0vh 0vh;
-    font-size: 33px;}
+    margin: 12vh 0vh 0vh 0vh;
+    font-size: 30px;}
 
 .crp {
     grid-template-rows: 26vh auto auto auto;
     }
 #rede img {
-    height: 53px;}
-
+    height: 43px;}
+.crp img {
+    height: 12vh;
+    }
 
 }
+@media (max-width: 320px) {
+  
+#danilo {
+    margin: 11vh 0vh 0vh 0vh;
+    font-size: 27px;}
+    
+.crp {
+    grid-template-rows: 26vh auto auto auto;
+        }
+#rede img {
+    height: 39px;}
+    
+    }
 
