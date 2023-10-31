@@ -97,8 +97,8 @@ main{
     grid-template-columns: 68% 32%;
     display: grid;}
 
-    .crp img{height: 11vh;}
-    #eu{
+.crp img{height: 11vh;}
+#eu{
         clip-path: circle(39% at 51% 53%);
         margin-top: 5vh;
         justify-self: center;
@@ -106,16 +106,16 @@ main{
         grid-row: 1/1;
         grid-column: 2;}
 
-    #danilo{
+#danilo{
         margin: 25vh 0vh 0vh 5vh;
         color: var(--cor1);
-        font-size: 6vh;
+        font-size: 2vh;
         font-family: var(--font2);
         grid-row: 1/1;
         grid-column: 1;
     }
 
-    #tex1{
+#tex1{
         text-align: justify;
         color: var(--cor1);
         font-size: 24px;
@@ -124,13 +124,13 @@ main{
         grid-column: 1;
     }
 
-    #icons{
+#icons{
         margin: 30%;
         height: 50%;
         grid-row:2/4;
         grid-column: 2;}
 
-    #tex2{
+#tex2{
         text-align: justify;
         color: var(--cor1);
         font-size:24px;
@@ -189,7 +189,7 @@ main {
 
 @media (max-width: 600px){
 #danilo {
-        font-size: 5vh;}
+        }
 .crp {grid-template-rows: auto auto auto auto; 
 }
 #rede img {
