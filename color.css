@@ -189,7 +189,7 @@ main {
 
 }
 
-@media (max-width: 550px){
+@media (max-width: 600px){
 #danilo {
         font-size: 5vh;}
 .crp {grid-template-rows: auto auto auto auto; 
