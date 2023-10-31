@@ -156,7 +156,7 @@ main {
 @media (max-width: 768px) {
 
 .crp {
-    grid-template-columns: 53% 47%;
+    grid-template-columns: 59% 41%;
     grid-template-rows: 38vh auto auto auto; 
     
 }
