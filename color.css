@@ -213,13 +213,13 @@ main {
   
 #danilo {
     margin: 11vh 0vh 0vh 0vh;
-    font-size: 27px;}
+    font-size: 4vh;}
     
 .crp {
     grid-template-rows: 26vh auto auto auto;
         }
 #rede img {
-    height: 39px;}
+    height: 7vh;}
     
     }
 
