@@ -109,7 +109,7 @@ main{
 #danilo{
         margin: 25vh 0vh 0vh 5vh;
         color: var(--cor1);
-        font-size: 6vh;
+        font-size: 5vh;
         font-family: var(--font2);
         grid-row: 1/1;
         grid-column: 1;
