@@ -60,7 +60,7 @@ header{grid-template-columns: 50% 50% 1fr;
     display: inline-flex;
     gap: 2vh;}
 
-#rede img{height: 6vh;}
+#rede img{height: 4vh;}
 
 #rede :hover{
     border-radius:60%;
@@ -117,7 +117,7 @@ main{margin: 5%;}
 
 /*Projetos*/
 
-
+footer{}
 
 
 
@@ -130,7 +130,7 @@ main {margin-inline: 4%;}
 
 #eu {height: 42vh;}
 
-#rede img {height: 5vw;}
+#rede img {height: 4vw;}
 }
 
 
@@ -156,7 +156,7 @@ main {margin-inline: 4%;}
 
 #danilo{margin: 13vh 0vh 0vh 0vh;}
 
-#rede img {height: 6vw;}}
+#rede img {height: 4vw;}}
 
 
 
@@ -164,7 +164,7 @@ main {margin-inline: 4%;}
 
 .crp {grid-template-rows: auto auto auto auto;}
 
-#rede img {height: 10vw;}}
+#rede img {height: 6vw;}}
 
 
 
